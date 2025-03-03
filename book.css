@@ -1,0 +1,53 @@
+/* Book Section Styling */
+.book-section {
+    padding: 4rem 2rem;
+    margin: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  
+  .book-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff; 
+  }
+  
+  #booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #booking-form input,
+  #booking-form select,
+  #booking-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #booking-form button {
+    background-color: #556B2F;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+  }
+  
+  #booking-form button:hover {
+    background-color:  #6B8E23;
+    transform: scale(1.05);
+  }
+  

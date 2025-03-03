@@ -1,0 +1,74 @@
+/* Keyframes for Fade-In Animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+    #explore-btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .about-content {
+      flex-direction: column;
+    }
+    .about-section {
+      padding: 3rem 1.5rem;
+      margin: 50px;
+    }
+    .about-section h2 {
+      font-size: 2rem;
+    }
+    .about-text p {
+      font-size: 1.1rem;
+    }
+  
+    .destination-cards {
+      gap: 1rem;
+    }
+    .card {
+      width: calc(100% - 1.5rem);
+      margin-bottom: 1.5rem;
+    }
+  
+    #contact-form button {
+      padding: 1rem;
+      font-size: 1.2rem;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 2rem 1rem;
+    }
+    .about-section h2 {
+      font-size: 1.8rem;
+    }
+    .about-text p {
+      font-size: 1rem;
+    }
+    #contact-form button {
+      padding: 1.5rem;
+      font-size: 1.4rem;
+      width: 90%;
+    }
+    .footer {
+      padding: 0.5rem;
+    }
+  }
+  
